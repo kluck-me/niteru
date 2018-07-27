@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="niteru.css">
+    <title>作品タイトル</title>
+  </head>
+  <body>
+    <div class="center">
+      <a href="index.html">TOPに戻る</a><br>
+      <a href="1.html">前のページ</a>
+      <a href="2.html">次のページ</a>
+    </div>
+
+    <div class="panel">
+      <!-- 作品ページ -->
+      <h1 class="center chapter">作品タイトル</h1>
+      <p class="pic center"><img src="http://neetsha.jp/hina/1.gif"></p>
+      <p class="pic center"><img src="http://neetsha.jp/hina/2.gif"></p>
+      <p class="pic center"><img src="http://neetsha.jp/hina/3.gif"></p>
+      <div class="text">
+        <p>コメントよろす</p>
+      </div>
+    </div>
+
+    <div class="panel center">
+      <!-- Neetel Inside Comment -->
+      <script>
+        var comicid = xxxxx;
+      </script>
+      <script src="https://menu.neetsha.jp/add_menu.js" charset="UTF-8"></script>
+      <form action="http://neetsha.jp/inside/comment.php" method="POST">
+        <a href="http://neetsha.jp/inside/comment.php?id=xxxxx">〒</a>
+        <input type="hidden" name="methodid" value="1">
+        <input type="hidden" name="id" value="xxxxx">
+        <input type="hidden" name="enc" value="0">
+        <input type="text" name="comment" size="80" maxlength="256" style="width:50%">
+        <input type="submit" name="submit" value="コメント送信">
+      </form>
+      <!-- / Neetel Inside Comment -->
+    </div>
+
+    <div class="center">
+      <a href="1.html">前のページ</a>
+      <a href="2.html">次のページ</a><br>
+      <a href="index.html">TOPに戻る</a>
+    </div>
+  </body>
+</html>

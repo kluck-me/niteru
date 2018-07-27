@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="niteru.css">
+    <title>作品タイトル</title>
+  </head>
+  <body>
+    <div class="panel">
+      <div class="line">
+        <div class="rows">
+          <a href="http://neetsha.jp/inside/main.php?t=0&magazine=1"><img src="http://neetel.neetsha.com/image/neetel_inside.gif" alt="新都社"></a>
+          <a href="http://neetsha.jp/inside/main.php?magazine=9">ベータマガジン</a>
+        </div>
+      </div>
+      <h1 class="line">作品タイトル</h1>
+      <!-- トップ絵 -->
+      <div class="pic line center">
+        <img src="http://neetsha.jp/hina/top.gif">
+      </div>
+      <!-- 作品リンク -->
+      <p>
+        <a href="1.html">第一話</a>
+      </p>
+    </div>
+
+    <div class="panel">
+      <div class="rows">
+        <a href="http://neetsha.jp/">
+          <img src="http://neetel.neetsha.com/image/logo.gif" alt="新都社" />
+        </a>
+        <div style="width:100%">
+          <p>作者コメント：よろしくおねがいします</p>
+          <p><a href="">作者</a>先生に励ましのお便りを送ろう！！</p>
+          <!-- Neetel Inside Comment -->
+          <script>
+            var comicid = xxxxx;
+          </script>
+          <script src="https://menu.neetsha.jp/add_menu.js" charset="UTF-8"></script>
+          <form action="http://neetsha.jp/inside/comment.php" method="POST" utn>
+            <a href="http://neetsha.jp/inside/comment.php?id=xxxxx">〒</a>
+            <input type="hidden" name="methodid" value="1">
+            <input type="hidden" name="id" value="xxxxx">
+            <input type="hidden" name="enc" value="0">
+            <input type="text" name="comment" size="80" maxlength="256" style="width:50%">
+            <input type="submit" name="submit" value="コメント送信">
+          </form>
+          <!-- / Neetel Inside Comment -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
